@@ -1,0 +1,315 @@
+a, a:hover, a:focus, a:active {
+     text-decoration: none;
+     color: inherit;
+}
+
+
+#menu{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    width:100px;
+
+}
+.menu-item{
+    display:inline-block;
+    /* border:1px solid #000; */
+    width:300vw;
+    /* height:50px; */
+    /* background:#f00; */
+    position:relative;
+    /* cursor:pointer; */
+
+}
+.sub-menu{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+
+}
+.sub-menu-item a:hover{
+ text-decoration: underline;!important
+}
+.sub-menu-item{
+    display:inline-block;
+    display:none;
+    /* border:0px solid #000; */
+    top:-1.5vw;
+    left:125px;
+    width:300px;
+
+
+    /* height:50px;
+    background:#0f0; */
+    position:absolute;
+
+    font-family:freight-big-pro; serif;
+
+    /* font style: light; */
+}
+.sub-menu-item{
+font-family:freight-big-pro; serif;
+font-weight: 100;
+font-style: normal;
+}
+.menu-item:hover ul li{
+    display:block;
+}
+
+.w3-hover-opacity{
+font-family:freight-big-pro; serif;
+font-size:2vw;
+}
+
+.name{
+font-family:freight-big-pro; serif;
+font-size:1.5vw;
+font-weight: 50;
+font-style: normal;
+}
+.name1{
+font-family:freight-big-pro; serif;
+font-size:1.25vw;
+font-weight: 50;
+font-style: normal;
+}
+.w3-display-container{
+  position: relative;
+  left: 14vw;
+}
+
+.w3-row-padding{
+padding-top: 7vh;
+width: 125vw;
+margin: auto;
+padding-left: 13vw;
+
+
+
+/* position: absolute; */
+/* text-align: center; */
+/* margin: 0 auto; */
+
+}
+
+/* a:link    {
+
+  text-decoration:  none; !important
+
+  color:            black;
+  }
+a:visited {
+
+  text-decoration:  none;
+
+  color:            black;
+  }
+a:hover   {
+
+  text-decoration:  none;
+
+  color:            black;
+  }
+a:active  {
+
+  text-decoration:  none;
+  color: black;
+  } */
+  span{
+
+    margin-right:0.5vw;
+    margin-left:0.5vw;
+    margin-top:.10vw;
+  }
+
+html {
+    width: 50%;
+    padding-top: 4vh;
+    padding-left: 4vh;
+}
+
+
+
+
+
+
+.awards{
+  position: relative;
+   bottom:25vw;
+   left: 40vw;
+   font-family: neue-kabel, sans-serif;
+   font-weight: 300;
+   font-style: normal;
+
+ }
+ .awardyear{
+    position: relative;
+    left: 40vw;
+    bottom:24vw;
+
+    font-family: neue-kabel, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #c9a110
+  }
+  .awards1{
+  position: relative;
+  left: 40vw;
+  bottom: 23vw;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+ }
+  .awards2{
+   position: relative;
+   left: 0vw;
+   bottom: -2vw;
+   font-family: neue-kabel, sans-serif;
+   font-weight: 300;
+   font-style: normal;
+  }
+  .exhibitions{
+    position: relative;
+    left: 0vw;
+    bottom: -2vw;
+    font-family: neue-kabel, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+   }
+  .year{
+    position: relative;
+    left: 0vw;
+    bottom: -1vw;
+
+    font-family: neue-kabel, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #c9a110
+    }
+  .exhibitions1{
+    position: relative;
+    left: 0vw;
+    bottom: -2vw;
+    font-family: neue-kabel, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+     }
+  .exhibitions2{
+    position: relative;
+    left: 0vw;
+    bottom: -2vw;
+    font-family: neue-kabel, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+      }
+  .exhibitions3{
+    position: relative;
+    left: 0vw;
+    bottom: -2vw;
+    font-family: neue-kabel, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+       }
+  .year2{
+      position: relative;
+      left: 0vw;
+      bottom: -2vw;
+
+      font-family: neue-kabel, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      color: #c9a110
+        }
+  .exhibitions4{
+        position: relative;
+        left: 0vw;
+        bottom: -3vw;
+        font-family: neue-kabel, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+         }
+  .exhibition5{
+        position: relative;
+        left: 0vw;
+        bottom: -2vw;
+        font-family: neue-kabel, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+          }
+  .year3{
+        position: relative;
+        left: 0vw;
+        bottom: -3vw;
+
+        font-family: neue-kabel, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #c9a110
+           }
+  .exhibitions6{
+        position: relative;
+        left: 0vw;
+        bottom: -1vw;
+        font-family: neue-kabel, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #000000
+          }
+
+
+    .info{
+          position: relative;
+          bottom: -6vw;
+          font-family: neue-kabel, sans-serif;
+          font-weight: 300;
+          font-style: normal;
+          font-size: 15px;
+          color: #000000;
+        }
+        .info1{
+              position: relative;
+              bottom: -6vw;
+              font-family: neue-kabel, sans-serif;
+              font-weight: 300;
+              font-style: normal;
+              font-size: 17px;
+              color: #000000;
+            }
+
+.education{
+  position: relative;
+  bottom: -7vw;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  color: #000000;
+}
+
+.education2{
+  position: relative;
+  bottom: -8vw;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  color: #000000;
+}
+.education3{
+  position: relative;
+  bottom: -9vw;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  color: #000000;
+}
+.education4{
+  position: relative;
+  bottom: -10vw;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  color: #000000;
+}
