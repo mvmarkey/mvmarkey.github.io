@@ -1,0 +1,166 @@
+
+a, a:hover, a:focus, a:active {
+     text-decoration: none;
+     color: inherit;
+}
+
+#menu{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    width:100px;
+
+}
+.menu-item{
+    display:inline-block;
+    /* border:1px solid #000; */
+    width:300vw;
+    /* height:50px; */
+    /* background:#f00; */
+    position:relative;
+    /* cursor:pointer; */
+
+}
+.sub-menu{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    text-decoration: underline;!important
+
+}
+
+ .sub-menu-item a:hover{
+  text-decoration: underline;!important
+}
+.sub-menu-item{
+    display:inline-block;
+    display:none;
+    /* border:1px solid #000; */
+    position:fixed;
+    top:-1vw;
+    left:10vw;
+    width:300vw;
+
+
+    /* height:50px;
+    background:#0f0; */
+    position:absolute;
+
+    font-family:freight-big-pro; serif;
+
+    /* font style: light; */
+}
+.sub-menu-item{
+font-family:freight-big-pro; serif;
+}
+.menu-item:hover ul li{
+    display:block;
+}
+
+.w3-hover-opacity{
+font-family:freight-big-pro; serif;
+font-size:2vw;
+}
+
+.name{
+font-family:freight-big-pro; serif;
+font-size:1.5vw;
+}
+.name1{
+font-family:freight-big-pro; serif;
+font-size:1.25vw;
+}
+.w3-display-container{
+  position: relative;
+  left: 14vw;
+}
+
+.w3-row-padding{
+padding-top: 2vh;
+width: 125vw;
+margin: auto;
+padding-left: 13vw;
+
+
+
+/* position: absolute; */
+/* text-align: center; */
+/* margin: 0 auto; */
+
+}
+
+/* a:link    {
+  text-decoration:  none; !important
+  color:            black;
+  }
+a:visited {
+  text-decoration:  none;
+  color:            black;
+  }
+a:hover   {
+  text-decoration:  none;
+  color:            black;
+  }
+a:active  {
+  text-decoration:  none;
+  color: black;
+  } */
+  span{
+
+    margin-right:0.5vw;
+    margin-left:0.5vw;
+    margin-top:.10vw;
+  }
+
+html {
+    width: 50%;
+    padding-top: 4vh;
+    padding-left: 4vh;
+}
+
+
+html {
+    width: 50%;
+
+}
+.responsive {
+  max-width: 70%;
+  height: auto;
+  position:relative;
+  top:150px;
+  left: 155px;
+}
+
+body {
+    color: #000000;
+    background-color: #FFFFFF;
+    margin: 40px;
+    position: absolute;
+    height: 100vh;
+ }
+
+
+ }
+
+.large {
+    transform: rotate(90deg)
+    font-size: 20px;
+}
+
+.gif {
+  position: absolute;
+  left: 85vw;
+  top: .5vw;
+}
+
+ul {
+    padding: 0px;}
+    }
+a:link    {
+    color: #000000;
+    text-decoration: none;;}
+a:visited {color:#000000;
+    text-decoration: none;}
+a:hover   {color:#000000;
+    text-decoration: none;}
+a:active  {color:#000000;}
