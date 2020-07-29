@@ -10,8 +10,7 @@ a, a:hover, a:focus, a:active {
     padding:4;
     position: relative;
     top: 2vw;
-    width:100px;
-
+    width:100%;
 }
 .menu-item a:hover{
  text-decoration: none;
@@ -20,14 +19,18 @@ a, a:hover, a:focus, a:active {
  text-decoration: underline;!important
 }
 .menu-item{
-    display:inline-block;
-    /* border:1px solid #000; */
-    width:300vw;
-    /* height:50px; */
-    /* background:#f00; */
-    position:relative;
-    /* cursor:pointer; */
+  display:flex;
+  align-items: center;
+  /* border:1px solid #000; */
+  /* width:300vw; */
+  /* height:50px; */
+  /* background:#f00; */
+  position:relative;
+  /* cursor:pointer; */
 
+}
+.menu-item > .header{
+  flex-shrink: 0;
 }
 .sub-menu{
     list-style-type:none;
@@ -39,21 +42,22 @@ a, a:hover, a:focus, a:active {
     display:inline-block;
     display:none;
     /* border:0px solid #000; */
-    top:-.5vw;
+    /* top:-.5vw;
     left:125px;
-    width:300px;
+    width:300px; */
 
 
     /* height:50px;
     background:#0f0; */
-    position:absolute;
+    /* position:absolute; */
 
-    font-family:freight-big-pro; serif;
+    font-family:freight-big-pro serif;
+    line-height: 0;
 
     /* font style: light; */
 }
-.sub-menu-item{
-font-family:freight-big-pro; serif;
+.sub-menu-item > h4{
+  margin: 0;
 }
 .menu-item:hover ul li{
     display:block;
