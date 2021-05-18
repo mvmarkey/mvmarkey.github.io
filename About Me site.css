@@ -262,8 +262,33 @@ html {
         font-style: normal;
         color: #000000
           }
-
-
+  .exhibitions7{
+                position: relative;
+                left: 0vw;
+                bottom: -1vw;
+                font-family: neue-kabel, sans-serif;
+                font-weight: 300;
+                font-style: normal;
+                color: #000000
+                  }
+                  .exhibitions8{
+                        position: relative;
+                        left: 0vw;
+                        bottom: -1vw;
+                        font-family: neue-kabel, sans-serif;
+                        font-weight: 300;
+                        font-style: normal;
+                        color: #000000
+                          }
+                          .exhibitions9{
+                                position: relative;
+                                left: 0vw;
+                                bottom: -1vw;
+                                font-family: neue-kabel, sans-serif;
+                                font-weight: 300;
+                                font-style: normal;
+                                color: #000000
+                                  }
     .info{
           position: relative;
           bottom: -6vw;
@@ -319,4 +344,59 @@ html {
   font-style: normal;
   font-size: 15px;
   color: #000000;
+}
+.featuredin{
+  position:relative;
+  left:30vw;
+  bottom:93.5vw;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  color: #000000;
+
+}
+.year4{
+  position: relative;
+  left: 0vw;
+  bottom: -1vw;
+  color: #c9a110
+}
+
+.example1{
+  position: relative;
+  left: 0vw;
+  bottom: -2vw;
+
+}
+
+.example2{
+  position: relative;
+  left: 0vw;
+  bottom: -3vw;
+
+}
+.example3{
+  position: relative;
+  left: 0vw;
+  bottom: -4vw;
+
+}
+.example4{
+  position: relative;
+  left: 0vw;
+  bottom: -4vw;
+
+}
+.example5{
+  position: relative;
+  left: 0vw;
+  bottom: -4vw;
+
+}
+.example6{
+  position: relative;
+  left: 0vw;
+  bottom: -4vw;
+
 }

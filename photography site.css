@@ -77,14 +77,11 @@ font-family:freight-big-pro; serif;
 font-size:1.25vw;
 
 }
-.w3-display-container{
-  position: relative;
-  left: 5vw;
-}
+
 
 .w3-row-padding{
 padding-top: 7vh;
-width: 125vw;
+width: 80vw;
 margin: auto;
 padding-left: 15vw;
 
@@ -96,6 +93,27 @@ padding-left: 15vw;
 
 }
 
+.Gestures{
+  position: relative;
+  left: 15vh;
+  top: 0vh;
+  font-family:freight-big-pro; serif;
+  font-size:2vw;
+}
+.EricaSo{
+  position: relative;
+  left: 12vh;
+  top: 0vh;
+  font-family:freight-big-pro; serif;
+  font-size:2vw;
+}
+.ChloeValorsoJewellery{
+  position: relative;
+  left: 7vh;
+  top: -10vh;
+  font-family:freight-big-pro; serif;
+  font-size:2vw;
+}
 /* a:link    {
 
   text-decoration:  none; !important
@@ -149,25 +167,43 @@ html {
 
 }
 .carousel-inner{
-  position: absolute;
-  left:10vw;
   backround-image:none !important;
   filter:none !important;
 }
+
 
 #myCarousel{
   backround-image:none !important;
   filter:none !important;
 
 }
+
+
 #Snow{
   backround-image:none !important;
   filter:none !important;
 
 }
+#Forest{
+  backround-image:none !important;
+  filter:none !important;
+  position: absolute;!important;
+  left:5vw;
+
+}
+
+#Nature {
+position: absolute!important;
+left: 5vw;
+
+
+}
 .container{
   backround-image:none !important;
   filter:none !important;
+  position: absolute;
+  left: 13vw;
+  top:5vw;
 
 }
 
