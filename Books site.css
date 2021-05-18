@@ -198,11 +198,9 @@ a:active  {
   cursor: pointer;
 }
 
-
-
 .description4 {
   position: relative;
-  top: -60vw;
+  top: -64vw;
   left:0vw;
   font-family:freight-big-pro; serif;
   font-size:1.5vw;
@@ -230,7 +228,6 @@ a:active  {
   text-align: left;
   padding-left: 8vw
 }
-
 
 
 .description3 {
