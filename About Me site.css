@@ -193,6 +193,16 @@ html {
     font-style: normal;
     color: #c9a110
     }
+    .year1{
+      position: relative;
+      left: 0vw;
+      bottom: -1vw;
+
+      font-family: neue-kabel, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      color: #c9a110
+      }
   .exhibitions1{
     position: relative;
     left: 0vw;
@@ -371,6 +381,12 @@ html {
 }
 
 .example2{
+  position: relative;
+  left: 0vw;
+  bottom: -3vw;
+
+}
+.example10{
   position: relative;
   left: 0vw;
   bottom: -3vw;
