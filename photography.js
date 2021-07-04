@@ -108,3 +108,11 @@ $(document).ready(function() {
   var carousel = new Carousel($('.carousel'));
 
 });
+
+<script type="text/javascript">
+<!--
+if (screen.width <= 699) {
+document.location = "https://mvmarkey.cargo.site/";
+}
+//-->
+</script>
